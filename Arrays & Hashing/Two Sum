@@ -16,4 +16,4 @@ class Solution:   //Store numbers you’ve seen in a dictionary, For each number
             if diff in prevMap:
                 return [prevMap [diff], i]
             prevMap [n] = i
-        return
+        return []
