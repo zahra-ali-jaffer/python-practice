@@ -15,7 +15,7 @@ class Solution:
             res.append(arr.pop()[1])
         return res
 
-
+//Solution 2
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count ={}
