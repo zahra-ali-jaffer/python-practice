@@ -7,7 +7,7 @@ class Solution:
                     return [i,j]
         return []
 
-
+//Solution 2
 class Solution:   //Store numbers you’ve seen in a dictionary, For each number, check if its pair already exists
     def twoSum(self, nums: List[int], target: int) -> List[int]: 
         prevMap = {} #val:index
