@@ -5,7 +5,8 @@ class Solution:
             for j in range(i + 1, len(nums)): //For each i, loop through the remaining numbers using j
                 if nums[i] + nums[j] == target: //if true, return their indices
                     return [i,j]
-        return []
+        return [] 
+
 
 //Solution 2
 class Solution:   //Store numbers you’ve seen in a dictionary, For each number, check if its pair already exists
