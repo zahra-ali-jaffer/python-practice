@@ -6,7 +6,7 @@ class Solution:
                 if nums[i] + nums[j] == target: //if true, return their indices
                     return [i,j]
         return []
- 
+
 
 //Solution 2
 class Solution:   //Store numbers you’ve seen in a dictionary, For each number, check if its pair already exists
