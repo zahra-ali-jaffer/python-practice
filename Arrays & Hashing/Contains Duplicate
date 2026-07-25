@@ -1,6 +1,6 @@
 class Solution:  
   def hasDuplicate(self, nums: List[int]) -> bool:
-    hashset = set()  //A set in Python stores unique values only. It allows very fast lookups (O(1) average time).
+    hashset = set()  //A set in Python stores unique values only. It allows very fast lookups (O(1) average time). 
     for n in nums:   //Iterate over every element in the list. 
       if n in hashset: 
         return True  //Check if already seen
